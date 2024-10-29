@@ -3,17 +3,22 @@
 
 [GitHub](https://github.com/emreckmk1/1--Html5)
 
+---
+### CDN
+-Font Aweesome = <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 HTML5
 
 - HTML5
 - CSS3
 - ✨Magic ✨
 
-## HTML 5 Features
+## Comment
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-
+- HTML <!-- Html Comment-->
+- CSS /* Css Comment */
+- JS // Single Comment
+- JS /* Multiple Comment */
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
