@@ -40,6 +40,106 @@
     <noscript>Your browser doesn't support JavaScript</noscript>
     <!-- start codes -->
 
+
+    <!-- Example Form and Table -->
+    <h1>Example</h1>
+    <form action="#" method="post">
+        <table>
+            <!-- Adınız -->
+            <tr>
+                <td><label for="uname">Adınız</label></td>
+                <td>
+                    <input
+                        type="text"
+                        id="uname"
+                        name="uname"
+                        required 
+                        placeholder="Adınızı Girin"
+                        title="Adınızı Girin">
+                </td>
+            </tr>
+    
+            <!-- Soyadınız -->
+            <tr>
+                <td><label for="usurname">Soyadınız</label></td>
+                <td>
+                    <input
+                        type="text"
+                        id="usurname"
+                        name="usurname"
+                        required 
+                        placeholder="Soyadınızı Girin"
+                        title="Soyadınızı Girin">
+                </td>
+            </tr>
+    
+            <!-- Şifre -->
+            <tr>
+                <td><label for="password">Şifre</label></td>
+                <td>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                        placeholder="Şifrenizi girin"
+                        title="Şifrenizi girin"
+                        minlength="3"
+                        maxlength="10"
+                        pattern="[a-zA-Z0-9]{3,10}">
+                </td>
+            </tr>
+    
+            <!-- Cinsiyet -->
+            <tr>
+                <td><label>Cinsiyet:</label></td>
+                <td>
+                    <input 
+                        type="radio"
+                        id="not_specified"
+                        name="gender"
+                        value="not_specified"
+                        checked> Belirtme
+    
+                    <input 
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"> Kadın
+    
+                    <input 
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"> Erkek
+                </td>
+            </tr>
+    
+            <!-- Tarih -->
+            <tr>
+                <td><label for="date">Tarih:</label></td>
+                <td>
+                    <input 
+                        type="datetime-local"
+                        name="date" 
+                        id="date"
+                        required>
+                </td>
+            </tr>
+    
+            <!-- Gönder ve Temizle -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="Temizle">
+                    <button type="submit">Gönder</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+
+    <hr>
     <!-- basic form and table -->
     <table>
         <tr>
